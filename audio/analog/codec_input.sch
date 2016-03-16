@@ -28,17 +28,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:microcontroller
-LIBS:linear_regulator
-LIBS:plughack
 LIBS:codec
 LIBS:ampop
-LIBS:plug0-cache
+LIBS:modcodec-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -49,7 +46,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L C_MINI C?
+L C_Small C?
 U 1 1 5486C2FC
 P 2750 4300
 F 0 "C?" V 2700 4340 30  0000 C CNN
@@ -57,10 +54,10 @@ F 1 "1uF" H 2800 4250 25  0000 C CNN
 F 2 "" H 2750 4300 60  0000 C CNN
 F 3 "" H 2750 4300 60  0000 C CNN
 	1    2750 4300
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
 $Comp
-L R_MINI R?
+L R_Small R?
 U 1 1 5488D826
 P 4500 4200
 F 0 "R?" H 4430 4250 25  0000 C CNN
@@ -68,10 +65,10 @@ F 1 "91R" H 4570 4250 20  0000 C CNN
 F 2 "" H 4500 4200 60  0000 C CNN
 F 3 "" H 4500 4200 60  0000 C CNN
 	1    4500 4200
-	-1   0    0    1   
+	0    1    1    0   
 $EndComp
 $Comp
-L C_MINI C?
+L C_Small C?
 U 1 1 5488DC83
 P 4300 3900
 F 0 "C?" V 4250 3940 30  0000 C CNN
@@ -79,7 +76,7 @@ F 1 "470pF (C0G)" V 4350 3750 25  0000 C CNN
 F 2 "" H 4300 3900 60  0000 C CNN
 F 3 "" H 4300 3900 60  0000 C CNN
 	1    4300 3900
-	0    -1   -1   0   
+	-1   0    0    1   
 $EndComp
 $Comp
 L GNDA #PWR?
@@ -115,62 +112,7 @@ F 3 "" H 1650 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L STEREO_JACK U?
-U 1 1 548C3EB8
-P 10550 5150
-F 0 "U?" H 10250 4900 50  0000 C CNN
-F 1 "STEREO_JACK" H 10550 5400 50  0000 C CNN
-F 2 "" H 10550 5150 50  0000 C CNN
-F 3 "" H 10550 5150 50  0000 C CNN
-	1    10550 5150
-	-1   0    0    1   
-$EndComp
-$Comp
-L GNDA #PWR?
-U 1 1 548D5E8C
-P 9950 5050
-F 0 "#PWR?" H 9950 5050 40  0001 C CNN
-F 1 "GNDA" H 9950 4980 40  0000 C CNN
-F 2 "" H 9950 5050 50  0000 C CNN
-F 3 "" H 9950 5050 50  0000 C CNN
-	1    9950 5050
-	0    1    1    0   
-$EndComp
-$Comp
-L C_MINI C?
-U 1 1 548D5F13
-P 9600 5150
-F 0 "C?" V 9550 5190 30  0000 C CNN
-F 1 "47uF" H 9650 5200 25  0000 C CNN
-F 2 "" H 9600 5150 60  0000 C CNN
-F 3 "" H 9600 5150 60  0000 C CNN
-	1    9600 5150
-	-1   0    0    1   
-$EndComp
-$Comp
-L C_MINI C?
-U 1 1 548D6001
-P 9600 5300
-F 0 "C?" V 9550 5340 30  0000 C CNN
-F 1 "47uF" H 9650 5350 25  0000 C CNN
-F 2 "" H 9600 5300 60  0000 C CNN
-F 3 "" H 9600 5300 60  0000 C CNN
-	1    9600 5300
-	-1   0    0    1   
-$EndComp
-$Comp
-L +3.3VADC #PWR?
-U 1 1 548D68F7
-P 5150 5400
-F 0 "#PWR?" H 5150 5520 20  0001 C CNN
-F 1 "+3.3VADC" H 5150 5490 30  0000 C CNN
-F 2 "" H 5150 5400 50  0000 C CNN
-F 3 "" H 5150 5400 50  0000 C CNN
-	1    5150 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_MINI R?
+L R_Small R?
 U 1 1 54B8DAF8
 P 4500 3700
 F 0 "R?" H 4430 3750 25  0000 C CNN
@@ -178,10 +120,10 @@ F 1 "634R" H 4570 3750 20  0000 C CNN
 F 2 "" H 4500 3700 60  0000 C CNN
 F 3 "" H 4500 3700 60  0000 C CNN
 	1    4500 3700
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
 $Comp
-L R_MINI R?
+L R_Small R?
 U 1 1 54B8F338
 P 5900 5000
 F 0 "R?" H 5830 5050 25  0000 C CNN
@@ -189,10 +131,10 @@ F 1 "91R" H 5970 5050 20  0000 C CNN
 F 2 "" H 5900 5000 60  0000 C CNN
 F 3 "" H 5900 5000 60  0000 C CNN
 	1    5900 5000
-	-1   0    0    1   
+	0    -1   -1   0   
 $EndComp
 $Comp
-L C_MINI C?
+L C_Small C?
 U 1 1 54B8F33E
 P 5700 4700
 F 0 "C?" V 5650 4740 30  0000 C CNN
@@ -200,10 +142,10 @@ F 1 "470pF (C0G)" V 5750 4550 25  0000 C CNN
 F 2 "" H 5700 4700 60  0000 C CNN
 F 3 "" H 5700 4700 60  0000 C CNN
 	1    5700 4700
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L R_MINI R?
+L R_Small R?
 U 1 1 54B8F344
 P 5900 4500
 F 0 "R?" H 5830 4550 25  0000 C CNN
@@ -211,7 +153,7 @@ F 1 "634R" H 5970 4550 20  0000 C CNN
 F 2 "" H 5900 4500 60  0000 C CNN
 F 3 "" H 5900 4500 60  0000 C CNN
 	1    5900 4500
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
 $Comp
 L GNDA #PWR?
@@ -225,18 +167,7 @@ F 3 "" H 3800 3800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3VADC #PWR?
-U 1 1 54B8F525
-P 3800 4600
-F 0 "#PWR?" H 3800 4720 20  0001 C CNN
-F 1 "+3.3VADC" H 3800 4690 30  0000 C CNN
-F 2 "" H 3800 4600 50  0000 C CNN
-F 3 "" H 3800 4600 50  0000 C CNN
-	1    3800 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_MINI R?
+L R_Small R?
 U 1 1 54B905CA
 P 3100 4650
 F 0 "R?" H 3030 4700 25  0000 C CNN
@@ -244,10 +175,10 @@ F 1 "1M" H 3170 4700 20  0000 C CNN
 F 2 "" H 3100 4650 60  0000 C CNN
 F 3 "" H 3100 4650 60  0000 C CNN
 	1    3100 4650
-	0    1    1    0   
+	-1   0    0    1   
 $EndComp
 $Comp
-L R_MINI R?
+L R_Small R?
 U 1 1 54B908A2
 P 4300 4600
 F 0 "R?" H 4230 4650 25  0000 C CNN
@@ -255,10 +186,10 @@ F 1 "R_MINI" H 4370 4650 20  0000 C CNN
 F 2 "" H 4300 4600 60  0000 C CNN
 F 3 "" H 4300 4600 60  0000 C CNN
 	1    4300 4600
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L C_MINI C?
+L C_Small C?
 U 1 1 54B90E9A
 P 3000 5250
 F 0 "C?" V 2950 5290 30  0000 C CNN
@@ -266,10 +197,10 @@ F 1 "0.01uF" V 3050 5320 25  0000 C CNN
 F 2 "" H 3000 5250 60  0000 C CNN
 F 3 "" H 3000 5250 60  0000 C CNN
 	1    3000 5250
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L C_MINI C?
+L C_Small C?
 U 1 1 54B90F02
 P 3200 5250
 F 0 "C?" V 3150 5290 30  0000 C CNN
@@ -277,7 +208,7 @@ F 1 "100uF" V 3250 5320 25  0000 C CNN
 F 2 "" H 3200 5250 60  0000 C CNN
 F 3 "" H 3200 5250 60  0000 C CNN
 	1    3200 5250
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L GNDA #PWR?
@@ -291,7 +222,7 @@ F 3 "" H 2750 5450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_MINI R?
+L R_Small R?
 U 1 1 54B90FEF
 P 2750 4950
 F 0 "R?" H 2680 5000 25  0000 C CNN
@@ -299,10 +230,10 @@ F 1 "R_MINI" H 2820 5000 20  0000 C CNN
 F 2 "" H 2750 4950 60  0000 C CNN
 F 3 "" H 2750 4950 60  0000 C CNN
 	1    2750 4950
-	0    1    1    0   
+	-1   0    0    1   
 $EndComp
 $Comp
-L R_MINI R?
+L R_Small R?
 U 1 1 54B9103F
 P 2750 5250
 F 0 "R?" H 2680 5300 25  0000 C CNN
@@ -310,7 +241,7 @@ F 1 "100K" H 2820 5300 20  0000 C CNN
 F 2 "" H 2750 5250 60  0000 C CNN
 F 3 "" H 2750 5250 60  0000 C CNN
 	1    2750 5250
-	0    1    1    0   
+	-1   0    0    1   
 $EndComp
 $Comp
 L GNDA #PWR?
@@ -338,7 +269,7 @@ $Comp
 L OPA4322 U?
 U 1 1 54B9A9BD
 P 3700 4200
-F 0 "U?" H 3750 4400 60  0000 C CNN
+F 0 "U?" H 3350 4200 60  0000 C CNN
 F 1 "OPA4322" H 3850 4000 50  0000 C CNN
 F 2 "" H 3700 4200 60  0000 C CNN
 F 3 "" H 3700 4200 60  0000 C CNN
@@ -349,7 +280,7 @@ $Comp
 L OPA4322 U?
 U 2 1 54B9AD39
 P 5050 5000
-F 0 "U?" H 5100 5200 60  0000 C CNN
+F 0 "U?" H 4750 5000 60  0000 C CNN
 F 1 "OPA4322" H 5200 4800 50  0000 C CNN
 F 2 "" H 5050 5000 60  0000 C CNN
 F 3 "" H 5050 5000 60  0000 C CNN
@@ -548,7 +479,7 @@ F 3 "" H 4300 1750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_MINI C?
+L C_Small C?
 U 1 1 54BAB19C
 P 6250 4600
 F 0 "C?" V 6200 4640 30  0000 C CNN
@@ -556,7 +487,7 @@ F 1 "2700pF (C0G)" V 6300 4450 25  0000 C CNN
 F 2 "" H 6250 4600 60  0000 C CNN
 F 3 "" H 6250 4600 60  0000 C CNN
 	1    6250 4600
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1600 2500 1650 2500
@@ -565,16 +496,6 @@ Wire Wire Line
 Wire Wire Line
 	1600 2600 1650 2600
 Connection ~ 1650 2600
-Wire Wire Line
-	9950 5050 10050 5050
-Wire Wire Line
-	10050 5150 9700 5150
-Wire Wire Line
-	10050 5250 9900 5250
-Wire Wire Line
-	9900 5250 9900 5300
-Wire Wire Line
-	9900 5300 9700 5300
 Wire Wire Line
 	9500 5150 9400 5150
 Wire Wire Line
@@ -755,13 +676,35 @@ Connection ~ 6250 5000
 Text Notes 6700 4500 3    35   ~ 0
 0,707Vp\n( 0,5Vrms )
 Wire Wire Line
-	7250 4500 7250 4200
+	7250 4200 7250 4500
 Wire Wire Line
-	7250 4600 7250 5000
+	7250 5000 7250 4600
 Text Notes 700  800  0    197  ~ 0
 SUBSTITUIR OPA322 PELO LME49721
 Text HLabel 9400 5150 0    60   Input ~ 0
 OUT_AUDIO_LEFT
 Text HLabel 9400 5300 0    60   Input ~ 0
 OUT_AUDIO_RIGHT
+$Comp
+L VAA #PWR?
+U 1 1 56E614B9
+P 5150 5400
+F 0 "#PWR?" H 5150 5250 50  0001 C CNN
+F 1 "VAA" H 5150 5550 50  0000 C CNN
+F 2 "" H 5150 5400 50  0000 C CNN
+F 3 "" H 5150 5400 50  0000 C CNN
+	1    5150 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L VAA #PWR?
+U 1 1 56E61593
+P 3800 4600
+F 0 "#PWR?" H 3800 4450 50  0001 C CNN
+F 1 "VAA" H 3800 4750 50  0000 C CNN
+F 2 "" H 3800 4600 50  0000 C CNN
+F 3 "" H 3800 4600 50  0000 C CNN
+	1    3800 4600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
