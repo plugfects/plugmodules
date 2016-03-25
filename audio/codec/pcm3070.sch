@@ -28,14 +28,15 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:microcontroller
+LIBS:linear_regulator
 LIBS:codec
-LIBS:ampop
-LIBS:modcodec-cache
+LIBS:plug0-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 2 6
 Title ""
 Date ""
 Rev ""

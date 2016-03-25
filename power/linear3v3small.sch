@@ -30,15 +30,13 @@ LIBS:contrib
 LIBS:valves
 LIBS:microcontroller
 LIBS:linear_regulator
-LIBS:plughack
 LIBS:codec
 LIBS:ampop
-LIBS:plug0-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 5 5
 Title ""
 Date ""
 Rev ""
