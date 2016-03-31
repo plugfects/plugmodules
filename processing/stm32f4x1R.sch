@@ -29,14 +29,12 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:microcontroller
-LIBS:linear_regulator
-LIBS:codec
-LIBS:plug0-cache
+LIBS:littlehacker-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 2 2
 Title ""
 Date ""
 Rev ""
@@ -247,8 +245,6 @@ Text Label 5850 3850 0    60   ~ 0
 SWDIO
 Text Label 4100 2650 2    60   ~ 0
 NRST
-Text Label 6450 3350 2    60   ~ 0
-SWO
 $Comp
 L VDD #PWR?
 U 1 1 55BCA11C
@@ -402,7 +398,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 3850 5850 3850
 Wire Wire Line
-	5850 3550 5700 3550
+	5850 4450 5700 4450
 Wire Wire Line
 	4100 2650 4200 2650
 Wire Wire Line
@@ -537,4 +533,58 @@ Wire Wire Line
 	3550 2600 3550 2650
 Wire Wire Line
 	3550 2650 3250 2650
+Text HLabel 5850 2550 2    60   BiDi ~ 0
+I2C1_SDA
+Text HLabel 5850 2650 2    60   Output ~ 0
+I2C1_SCL
+Text HLabel 5850 2750 2    60   Input ~ 0
+I2S3_SD
+Text HLabel 5850 2850 2    60   Input ~ 0
+I2S3_EXTSD
+Text HLabel 5850 2950 2    60   Output ~ 0
+I2S3_CK
+Text HLabel 5850 3050 2    60   Output ~ 0
+SDIO_CMD
+Text HLabel 5850 3150 2    60   Output ~ 0
+SDIO_CK
+Text HLabel 5850 3250 2    60   BiDi ~ 0
+SDIO_D3
+Text HLabel 5850 3350 2    60   BiDi ~ 0
+SDIO_D2
+Text HLabel 5850 3450 2    60   Output ~ 0
+I2S3_WS
+Text HLabel 5850 3950 2    60   Output ~ 0
+USB_P
+Text HLabel 5850 4050 2    60   Output ~ 0
+USB_N
+Text HLabel 5850 4250 2    60   BiDi ~ 0
+SDIO_D1
+Text HLabel 5850 4350 2    60   BiDi ~ 0
+SDIO_D0
+Text HLabel 5850 4450 2    60   Output ~ 0
+I2S3_MCLK
+Wire Wire Line
+	5700 2550 5850 2550
+Wire Wire Line
+	5700 2650 5850 2650
+Wire Wire Line
+	5700 2750 5850 2750
+Wire Wire Line
+	5700 2850 5850 2850
+Wire Wire Line
+	5700 2950 5850 2950
+Wire Wire Line
+	5700 3050 5850 3050
+Wire Wire Line
+	5700 3150 5850 3150
+Wire Wire Line
+	5700 3250 5850 3250
+Wire Wire Line
+	5700 3950 5850 3950
+Wire Wire Line
+	5700 4050 5850 4050
+Wire Wire Line
+	5700 4250 5850 4250
+Wire Wire Line
+	5700 4350 5850 4350
 $EndSCHEMATC
