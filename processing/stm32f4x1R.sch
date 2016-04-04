@@ -29,8 +29,8 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:microcontroller
-LIBS:tlv320aic3104
 LIBS:codec
+LIBS:switched_regulator
 LIBS:littlehacker-cache
 EELAYER 25 0
 EELAYER END
