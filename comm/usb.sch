@@ -29,13 +29,19 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:microcontroller
+LIBS:codec
+LIBS:switched_regulator
+LIBS:ampop
+LIBS:audio_conn
 LIBS:esdprotection
-LIBS:bit0-cache
+LIBS:connectors
+LIBS:linear_regulator
+LIBS:littlehacker-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -57,10 +63,10 @@ F 3 "" V 4550 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L GND #PWR49
 U 1 1 55734DCC
 P 4700 2400
-F 0 "#PWR06" H 4700 2150 50  0001 C CNN
+F 0 "#PWR49" H 4700 2150 50  0001 C CNN
 F 1 "GND" H 4700 2250 50  0000 C CNN
 F 2 "" H 4700 2400 60  0000 C CNN
 F 3 "" H 4700 2400 60  0000 C CNN
@@ -70,10 +76,10 @@ $EndComp
 Wire Wire Line
 	4700 2300 4700 2400
 $Comp
-L GND #PWR07
+L GND #PWR50
 U 1 1 55734DEB
 P 4950 1950
-F 0 "#PWR07" H 4950 1700 50  0001 C CNN
+F 0 "#PWR50" H 4950 1700 50  0001 C CNN
 F 1 "GND" H 4950 1800 50  0000 C CNN
 F 2 "" H 4950 1950 60  0000 C CNN
 F 3 "" H 4950 1950 60  0000 C CNN
@@ -108,10 +114,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/PRTR5V0U2X.pdf" H 3800 2600 60  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L GND #PWR48
 U 1 1 557357B6
 P 3000 2600
-F 0 "#PWR08" H 3000 2350 50  0001 C CNN
+F 0 "#PWR48" H 3000 2350 50  0001 C CNN
 F 1 "GND" H 3000 2450 50  0000 C CNN
 F 2 "" H 3000 2600 60  0000 C CNN
 F 3 "" H 3000 2600 60  0000 C CNN
