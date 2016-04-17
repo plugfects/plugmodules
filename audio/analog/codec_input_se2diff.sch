@@ -36,6 +36,7 @@ LIBS:audio_conn
 LIBS:esdprotection
 LIBS:connectors
 LIBS:linear_regulator
+LIBS:plughack
 LIBS:littlehacker-cache
 EELAYER 25 0
 EELAYER END

@@ -36,6 +36,7 @@ LIBS:audio_conn
 LIBS:esdprotection
 LIBS:connectors
 LIBS:linear_regulator
+LIBS:plughack
 LIBS:littlehacker-cache
 EELAYER 25 0
 EELAYER END
@@ -494,9 +495,9 @@ Wire Wire Line
 	3550 2600 3550 2650
 Wire Wire Line
 	3550 2650 3250 2650
-Text HLabel 5850 2550 2    60   BiDi ~ 0
+Text HLabel 4050 2850 0    60   BiDi ~ 0
 I2C1_SDA
-Text HLabel 5850 2650 2    60   Output ~ 0
+Text HLabel 4050 2750 0    60   Output ~ 0
 I2C1_SCL
 Text HLabel 5850 2750 2    60   Input ~ 0
 SAI1_SDB
@@ -504,30 +505,18 @@ Text HLabel 4050 3050 0    60   Input ~ 0
 SAI1_SDA
 Text HLabel 4050 4850 0    60   Output ~ 0
 SAI1_SCK_A
-Text HLabel 5850 3050 2    60   Output ~ 0
-SDIO_CMD
-Text HLabel 5850 3150 2    60   Output ~ 0
-SDIO_CK
-Text HLabel 5850 3250 2    60   BiDi ~ 0
-SDIO_D3
-Text HLabel 5850 3350 2    60   BiDi ~ 0
-SDIO_D2
 Text HLabel 5850 2250 2    60   Output ~ 0
 SAI1_FS_A
 Text HLabel 5850 3950 2    60   Output ~ 0
 USB_P
 Text HLabel 5850 4050 2    60   Output ~ 0
 USB_N
-Text HLabel 5850 4250 2    60   BiDi ~ 0
-SDIO_D1
-Text HLabel 5850 4350 2    60   BiDi ~ 0
-SDIO_D0
 Text HLabel 5850 2350 2    60   Output ~ 0
 SAI1_MCLK_A
 Wire Wire Line
-	5700 2550 5850 2550
+	4050 2750 4200 2750
 Wire Wire Line
-	5700 2650 5850 2650
+	4050 2850 4200 2850
 Wire Wire Line
 	5700 2750 5850 2750
 Wire Wire Line
@@ -753,4 +742,6 @@ Wire Wire Line
 	4050 3050 4200 3050
 Wire Wire Line
 	3800 3150 4200 3150
+Text HLabel 5850 4250 2    60   Input ~ 0
+USB_VBUS
 $EndSCHEMATC
