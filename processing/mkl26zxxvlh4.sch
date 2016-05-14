@@ -28,6 +28,9 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:microcontroller
+LIBS:audio_conn
+LIBS:codec
 LIBS:plugmini-cache
 EELAYER 25 0
 EELAYER END

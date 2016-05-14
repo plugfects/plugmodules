@@ -42,7 +42,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 7 9
 Title ""
 Date ""
 Rev ""
@@ -58,8 +58,10 @@ U 1 1 570677F1
 P 3650 3200
 F 0 "J3" H 3650 3500 60  0000 C CNN
 F 1 "MicroSDCard" H 3750 2600 60  0000 C CNN
-F 2 "" H 3650 3200 60  0001 C CNN
+F 2 "processing:sdcard_pushpull" H 3650 3200 60  0001 C CNN
 F 3 "" H 3650 3200 60  0000 C CNN
+F 4 "0475710001" H 3650 3200 60  0001 C CNN "manf#"
+F 5 " 047571-0001" H 3650 3200 60  0001 C CNN "mouser#"
 	1    3650 3200
 	1    0    0    -1  
 $EndComp
@@ -79,6 +81,7 @@ F 0 "R12" H 4380 2670 50  0000 L CNN
 F 1 "10k" H 4380 2610 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 4350 2650 50  0001 C CNN
 F 3 "" H 4350 2650 50  0000 C CNN
+F 4 "CRCW060310K0FKEA" H 4350 2650 60  0001 C CNN "manf#"
 	1    4350 2650
 	1    0    0    -1  
 $EndComp
