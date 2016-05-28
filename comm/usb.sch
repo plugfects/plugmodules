@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:plugmini-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,12 +36,13 @@ LIBS:ampop
 LIBS:esdprotection
 LIBS:touch_probes
 LIBS:connectors
+LIBS:modules
 LIBS:plugmini-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 6 8
 Title ""
 Date ""
 Rev ""
@@ -136,7 +138,7 @@ U 1 1 5718D69C
 P 4600 2000
 F 0 "P2" H 4925 1875 50  0000 C CNN
 F 1 "USB_OTG" H 4600 2200 50  0000 C CNN
-F 2 "Connect:USB_Micro-B" V 4550 1900 50  0001 C CNN
+F 2 "processing:USB_Micro-B101181930001LF" V 4550 1900 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/10118193-0001LF-FCI-datasheet-55953155.pdf" H 4550 1900 50  0001 C CNN
 F 4 "10118193-0001LF" H 4600 2000 60  0001 C CNN "manf#"
 	1    4600 2000

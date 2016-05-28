@@ -36,13 +36,13 @@ LIBS:audio_conn
 LIBS:esdprotection
 LIBS:connectors
 LIBS:linear_regulator
-LIBS:touch_probes
+LIBS:fpga
 LIBS:littlehacker-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 9
+Sheet 2 7
 Title ""
 Date ""
 Rev ""

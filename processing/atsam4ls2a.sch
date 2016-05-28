@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:plugmini-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,12 +36,13 @@ LIBS:ampop
 LIBS:esdprotection
 LIBS:touch_probes
 LIBS:connectors
+LIBS:modules
 LIBS:plugmini-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 5 8
 Title ""
 Date ""
 Rev ""
@@ -54,6 +56,8 @@ $Comp
 L ATSAM4LS U2
 U 1 1 573775FB
 P 6100 3150
+AR Path="/573775FB" Ref="U2"  Part="1" 
+AR Path="/573775F2/573775FB" Ref="U2"  Part="1" 
 F 0 "U2" H 5350 4500 50  0000 C CNN
 F 1 "ATSAM4LS" H 6650 1500 50  0000 C CNN
 F 2 "Housings_DFN_QFN:QFN-48-1EP_7x7mm_Pitch0.5mm" H 6000 3300 60  0001 C CNN
@@ -611,4 +615,12 @@ Wire Wire Line
 	7050 3550 7250 3550
 Wire Wire Line
 	7050 3450 7250 3450
+Text HLabel 7250 4050 2    60   Input ~ 0
+SCL
+Text HLabel 7250 4150 2    60   BiDi ~ 0
+SDA
+Wire Wire Line
+	7050 4050 7250 4050
+Wire Wire Line
+	7250 4150 7050 4150
 $EndSCHEMATC
