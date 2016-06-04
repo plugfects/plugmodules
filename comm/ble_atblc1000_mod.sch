@@ -36,6 +36,8 @@ LIBS:ampop
 LIBS:esdprotection
 LIBS:touch_probes
 LIBS:connectors
+LIBS:switched_regulator
+LIBS:linear_regulator
 LIBS:modules
 LIBS:plugmini-cache
 EELAYER 25 0
@@ -64,10 +66,10 @@ F 3 "" H 5550 3050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR056
+L GND #PWR064
 U 1 1 5748BE2B
 P 4450 4100
-F 0 "#PWR056" H 4450 3850 50  0001 C CNN
+F 0 "#PWR064" H 4450 3850 50  0001 C CNN
 F 1 "GND" H 4450 3950 50  0000 C CNN
 F 2 "" H 4450 4100 50  0000 C CNN
 F 3 "" H 4450 4100 50  0000 C CNN
