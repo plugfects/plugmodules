@@ -28,14 +28,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:oscillator
+LIBS:10m08SAE
 LIBS:microcontroller
-LIBS:esdprotection
-LIBS:bit0-cache
+LIBS:switched_mode_regulator
+LIBS:nymph-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
+Sheet 4 4
 Title ""
 Date ""
 Rev ""
