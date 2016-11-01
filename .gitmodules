@@ -1,0 +1,3 @@
+[submodule "pluglib"]
+	path = pluglib
+	url = https://github.com/plugfects/pluglib.git
